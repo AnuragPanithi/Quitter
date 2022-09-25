@@ -37,7 +37,7 @@
         size="10px"
         color="grey-2"
       />
-      >
+      <q-list separator>
         <q-item
         v-for="qweet in qweets"
         :key="qweet.id"
@@ -94,7 +94,6 @@
           </div>
         </q-item-section>
       </q-item>
-        </transition-group>
       </q-list>
     </q-scroll-area>
   </q-page>
